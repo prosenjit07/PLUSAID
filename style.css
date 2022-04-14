@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css?family=Hind+Siliguri");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hind Siliguri", sans-serif;
+}
+header {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  padding: 5px;
+  position: fixed;
+  z-index: 1;
+  background-color: #f9fbff;
+  justify-content: center;
+  box-shadow: 0 4px 4px hsl(0deg 0% 73% / 25%);
+  font-family: "Hind Siliguri", sans-serif;
+  z-index: 1;
+}
+.img-fluid {
+  margin-right: 120px;
+  max-width: 10%;
+  height: auto;
+}
+nav {
+  margin-top: 22px;
+}
+nav a {
+  text-decoration: none;
+  color: #09275b;
+  padding: 0 7px;
+  font-size: 17px;
+  font-weight: bold;
+}
+nav .active,
+nav a:hover {
+  border-bottom: 7px solid #09275b;
+  padding-bottom: 25px;
+  transition: border-bottom 0.5s cubic-bezier(0, 0, 1, 1);
+}
+.nohover {
+  pointer-events: none;
+  cursor: pointer;
+}
+
+section {
+  width: 100%;
+}
+.sec01 {
+  background-image: url(img/972060-covid-vaccine-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Hind Siliguri", sans-serif;
+}
+.sec01 .box {
+  max-width: 750px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  min-height: 600px;
+}
+.box01 {
+  transition: all 0.4s ease-in-out;
+  background: rgba(255, 255, 255, 0.795);
+  border-radius: 50px;
+  text-align: center;
+  width: 70%;
+  height: 390px;
+  padding: 2.2rem 1.5rem 2.2rem 2.2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: #09275b;
+  border-bottom: 8px solid #09275b;
+  cursor: pointer;
+}
+.box01 > p {
+  color: red;
+}
+.box01:hover {
+  background-color: rgb(218, 237, 255);
+  box-shadow: 0 4px 4px hsl(0deg 0% 73% / 25%);
+}
+.box02 {
+  transition: all 0.4s ease-in-out;
+  width: 50%;
+  height: 390px;
+  margin-left: 1.5rem;
+  position: relative;
+  top: -10px;
+}
+.tik {
+  width: 100%;
+  height: 90px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease-in-out;
+}
+.tik h3 {
+  padding-left: 20px;
+  font-weight: bold;
+  color: #09275b;
+}
+.tik:first-child {
+  border-left: 8px solid #0d7b2c;
+}
+.tik:first-child:hover {
+  background-color: #dfffda;
+}
+.tik:nth-child(2) {
+  border-left: 8px solid #d8de00;
+}
+.tik:nth-child(2):hover {
+  background-color: #feffda;
+}
+.tik:nth-child(3) {
+  border-left: 8px solid #25be88;
+}
+.tik:nth-child(3):hover {
+  background-color: #dafff2;
+}
+.tik:nth-child(4) {
+  border-left: 8px solid #5fc6cc;
+}
+.tik:nth-child(4):hover {
+  background-color: #dafdff;
+}
+
+.sec02 {
+  width: 70%;
+  height: 120px;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px hsl(0deg 0% 73% / 25%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Hind Siliguri", sans-serif;
+  position: absolute;
+  padding: 10px;
+  bottom: -55px;
+  left: 230px;
+  background-color: white;
+  cursor: pointer;
+}
+.sec02 .call {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sec02 .call h5 {
+  color: #1daa79;
+}
+.sec02 .call p {
+  color: #09275b;
+}
+.call:first-child,
+.call:nth-child(2),
+.call:nth-child(3),
+.call:nth-child(4),
+.call:nth-child(5) {
+  border-right: 0.5px solid #09275b;
+  padding: 0px 35px;
+}
+
+.sec03 {
+  width: 70%;
+  height: 420px;
+  box-shadow: 0 4px 4px rgba(105, 103, 219, 0.363);
+  margin: 0 auto;
+  margin-top: 200px;
+  font-family: "Hind Siliguri", sans-serif;
+  color: #4d0529;
+  border: none;
+}
+.sec03 .covid {
+  margin-left: 30px;
+  border-left: 5px solid #3c8aff;
+}
+.covid h2 {
+  margin-left: 10px;
+}
+.sec03 h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.sec03 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  border: none;
+  border-radius: 10px;
+}
+.card .card1 {
+  width: 30%;
+}
+.card .card1 img {
+  margin-bottom: 20px;
+}
+
+.sec04 {
+  width: 70%;
+  height: 100px;
+  font-family: "Hind Siliguri", sans-serif;
+  color: #09275b;
+  border: none;
+  margin: 0 auto;
+}
+.sec04 .app {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sec05 {
+  width: 70%;
+  height: 350px;
+  box-shadow: 0 4px 4px hsl(0deg 0% 73% / 25%);
+  margin: 0 auto;
+  margin-top: 100px;
+  font-family: "Hind Siliguri", sans-serif;
+  color: #09275b;
+  border: none;
+}
+.sec05 .muj {
+  margin-left: 30px;
+  border-left: 5px solid #ff483c;
+}
+.muj h2 {
+  margin-left: 10px;
+}
+.sec05 p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.sec05 .mujib {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.mujib1 .mujib2 {
+  width: 30%;
+}
+.mujib2 {
+  margin-top: 80px;
+}
+.mujib1 img,
+.mujib2 img {
+  margin-bottom: 20px;
+}
+.mujib .mujibpik {
+  width: 200px;
+  height: auto;
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: #503ef25e;
+  position: relative;
+  bottom: 0;
+  margin-top: 100px;
+}
+.foot {
+  width: 80%;
+  display: flex;
+  font-family: "Hind Siliguri", sans-serif;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+}
+.foot p {
+  color: white;
+}
+
+.block1 {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.smblock {
+  width: 280px;
+  height: 300px;
+  background-color: #d7eef0;
+  margin: 0 20px;
+  font-size: 15px;
+  padding: 0 10px;
+  text-align: center;
+}
+.sm1{
+  margin-top: 50px;
+}
+.smblock h2 {
+  font-size: 20px;
+}
+.smblock p {
+  font-size: 10px;
+}
